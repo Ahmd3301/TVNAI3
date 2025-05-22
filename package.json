@@ -1,0 +1,22 @@
+{
+  "name": "faselhd-link-extractor-api",
+  "version": "1.0.0",
+  "description": "API to extract video links from FaselHD URLs",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "extractor",
+    "faselhd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "jsdom": "^16.6.0"
+  }
+}
